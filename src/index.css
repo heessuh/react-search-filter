@@ -12,12 +12,12 @@ button {
 }
 
 html {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
 }
 
 body {
   background-color: #000;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 p {
@@ -51,7 +51,7 @@ header {
   border: 2px solid #000;
   border-radius: 2em;
   overflow: hidden;
-  font-size: 1rem;
+  font-size: 0.8rem;
   display: flex;
   flex-flow: row nowrap;
 }
@@ -68,13 +68,13 @@ header {
 }
 
 .search__input {
-  padding: 1em;
+  padding: 0.8em;
   width: 85%;
 }
 
 .search__button {
   width: 15%;
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   padding-right: 0.5em;
   color: gray;
   display: grid;
@@ -83,22 +83,22 @@ header {
 
 @media (min-width: 576px) {
   .search {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .search__button {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 }
 
 @media (min-width: 800px) {
   .search {
     width: 75%;
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .search__button {
     padding-right: 0.5em;
-    font-size: 3rem;
+    font-size: 1rem;
   }
 }
